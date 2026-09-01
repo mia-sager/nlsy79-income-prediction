@@ -26,7 +26,7 @@ Displays the loadings of the ten ASVAB subtests on the first two principal compo
 - **PC1** has positive loadings across all ten subtests and represents broad overall ASVAB performance.
 - **PC2** contrasts numerical, coding, and verbal skills with more technical and mechanical skills.
 
-PC1 explains approximately **61% of the total variance** in the ASVAB measures. :contentReference[oaicite:1]{index=1}
+PC1 explains approximately **61% of the total variance** in the ASVAB measures. 
 
 ---
 
@@ -38,7 +38,7 @@ PC1 explains approximately **61% of the total variance** in the ASVAB measures. 
 
 Shows the pruned decision tree model using gender and education to predict log-transformed income.
 
-Pruning reduced unnecessary model complexity and slightly improved test performance compared with the fully grown decision tree. :contentReference[oaicite:2]{index=2}
+Pruning reduced unnecessary model complexity and slightly improved test performance compared with the fully grown decision tree. 
 
 ---
 
@@ -50,7 +50,7 @@ Pruning reduced unnecessary model complexity and slightly improved test performa
 
 Shows random forest performance as the number of trees increases.
 
-The out-of-bag error decreased substantially with the first several trees and then stabilized, indicating that additional trees provided limited improvement after the model had largely converged. :contentReference[oaicite:3]{index=3}
+The out-of-bag error decreased substantially with the first several trees and then stabilized, indicating that additional trees provided limited improvement after the model had largely converged. 
 
 ---
 
@@ -62,7 +62,7 @@ The out-of-bag error decreased substantially with the first several trees and th
 
 Shows the effect of the `max_features` hyperparameter on out-of-bag error.
 
-The analysis selected the value that minimized OOB error, balancing tree diversity and individual tree strength. :contentReference[oaicite:4]{index=4}
+The analysis selected the value that minimized OOB error, balancing tree diversity and individual tree strength. 
 
 ---
 
@@ -80,4 +80,4 @@ Compares the test mean squared error across the five predictive approaches evalu
 - Fit 4: Random Forest
 - Fit 5: Four-Model Ensemble
 
-The final ensemble achieved the lowest test MSE, approximately **0.6093**, and was selected as the best-performing predictive model. :contentReference[oaicite:5]{index=5}
+The final ensemble achieved the lowest test MSE, approximately **0.6093**, and was selected as the best-performing predictive model. 
